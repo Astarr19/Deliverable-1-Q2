@@ -1,0 +1,126 @@
+* {
+    font-family:'roboto';
+    background-color: #f2f2f2;
+    font-weight: 300;
+
+}
+
+@media screen and (min-width: 768px) {
+    .parent-top {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        height: 50px;
+        margin-left: 30px;
+    }
+
+    header {
+        font-size: 25px;
+        width: 25%;
+        
+    }
+
+    .parent-bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+        margin-top: 150px;
+        margin-left: 30px;
+    }
+
+    div {
+        width: 45%;
+
+    }
+
+    button {
+        width: auto;
+        font-size: 20px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: flex-end;
+        width: 75%;
+    }
+
+    li {
+        margin: 20px 10px;
+
+    }
+
+    img {
+        width: 450px;
+    }
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.parent-top {
+    background-color: #F2F2F2;
+}
+
+ul {
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    color: #000;
+    background-color: #F2F2F2;
+}
+
+ul a:hover {
+    color: #ff5c0f
+}
+
+header {
+    color: #20a8b4;
+    font-size: 35px;
+
+}
+
+h1 {
+    font-size: 40px;
+
+}
+
+h2 {
+    color: #000;
+    font-size: 18px;
+}
+
+mark {
+    color: #ff5c0f;
+
+}
+
+button {
+    border-radius: 10px;
+    background-color: #20a8b4;
+    padding: 12px;
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+
+}
+
+button:hover {
+    background-color: #ff5c0f;
+
+}
+
+@media screen and (max-width: 768px) {
+    img {
+        display: none;
+    }
+}
